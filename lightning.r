@@ -49,5 +49,6 @@ class(strikes)
 
 plot(strikes)
 
+writeRaster(strikes, "C:\\JP\\weatherdata\\lightning01011986.img")
 
 
